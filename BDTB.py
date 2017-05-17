@@ -87,7 +87,7 @@ class BDTB:
     	return contents
     		# print floor, u"楼------------------------------------------------------------------------------------------------------------------------------------\n"
     		# print self.tool.replace(item)
-    		# floor += 1	 
+    		# floor += 1
 
     def setFileTitle(self, title):
     	if title is not None:
@@ -126,7 +126,7 @@ class BDTB:
     	finally:
     		print "写入任务完成"
 
-	
+
 
 
 print u"请输入帖子代号"
@@ -136,7 +136,7 @@ floorTag = raw_input("是否写入楼层信息，是输入1，否则输入0\n")
 bdtb = BDTB(baseURL, seeLZ, floorTag)
 bdtb.start()
 # page = bdtb.getPage(1)
-# bdtb.getContent(page) 
+# bdtb.getContent(page)
 
 
 

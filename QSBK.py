@@ -26,7 +26,7 @@ class QSBK():
             request = urllib2.Request(url, headers=self.headers)
             response = urllib2.urlopen(request)
             pageCode = response.read().decode('utf-8')
-            # print pageCode
+            print pageCode
             return pageCode
         except urllib2.URLError, e:
             if hasattr(e, "reason"):
@@ -47,7 +47,7 @@ class QSBK():
             # print item[0],item[1],item[2]
             replaceBR = re.compile('<br/>')
             text = re.sub(replaceBR, "\n", item[2])
-            pageStories.append([item[0].strip(), item[1].strip(), text.strip(), item[3].strip()])            
+            pageStories.append([item[0].strip(), item[1].strip(), text.strip(), item[3].strip()])
             return pageStories
 
     def loadPage(self):
@@ -81,7 +81,7 @@ class QSBK():
                 del self.stories[0]
                 self.getOneStory(pageStroies,nowPage)
             else:
-                print "not load"    
+                print "not load"
 
 spider = QSBK()
 spider.start()
