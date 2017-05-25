@@ -27,7 +27,7 @@ class KeepLine:
     def delayRun(self):
         while True:
             self.getPage(2)
-            time.sleep(60*5)
+            time.sleep(60*1)
 
 
 
