@@ -5,7 +5,11 @@ import re
 import thread
 import time
 #ooo
+<<<<<<< HEAD
 #master
+=======
+#branch
+>>>>>>> issue1
 #一定要对齐
 #字典对应的key不能写错
 
