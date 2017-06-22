@@ -4,7 +4,7 @@ import urllib2
 import re
 import thread
 import time
-
+#oooo
 #一定要对齐
 #字典对应的key不能写错
 

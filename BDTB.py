@@ -2,7 +2,7 @@
 import urllib
 import urllib2
 import re
-
+# ooo
 #复制粘贴难以对齐，报语法错误
 #建立处理页面标签的类
 #匹配最后一个span标签：re.compile('<li class="l_reply_num.*?</span>.*?<span.*?>(.*?)</span>',re.S)
