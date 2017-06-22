@@ -60,13 +60,13 @@ class QSBK():
 
 
     def getOneStory(self,pageStories,page):
-        for story in pageStories:
-            input = raw_input()
-            self.loadPage()
-            if input == "q":
-                self.enable = False
-                return
-            print u"头像地址：-- %s\n发布人:-- %s\t\n发布内容:-- %s\t\n评论数:-- %s" %(story[0],story[1],story[2],story[3])
+                for story in pageStories:
+                    input = raw_input()
+                    self.loadPage()
+                    if input == "q":
+                        self.enable = False
+                        return
+                    print u"头像地址：-- %s\n发布人:-- %s\t\n发布内容:-- %s\t\n评论数:-- %s" %(story[0],story[1],story[2],story[3])
 
     def start(self):
         print u"正在读取糗事百科,按回车查看新段子，Q退出"
