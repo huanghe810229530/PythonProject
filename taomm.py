@@ -4,7 +4,7 @@
 # Project: taobaomm
 
 from pyspider.libs.base_handler import *
-
+#issue1 br debug
 PAGE_START = 1
 PAGE_END = 30
 DIR_PATH = '/Users/guchengfeng/Desktop/other/taomm'
